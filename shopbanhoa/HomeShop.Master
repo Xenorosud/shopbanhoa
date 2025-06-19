@@ -1,0 +1,1005 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeShop.master.cs" Inherits="shopbanhoa.HomeShop" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      
+       <link href="css/Animation1.css" rel="stylesheet" />
+   <link href="css/Style.css" rel="stylesheet" />
+    <script src="js/JavaScript1.js"></script>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+         </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+       
+        <!--   thông tin liên hệ góc dưới -->
+        <div class="bottom-contact">
+<div class="container">
+<div class="left">
+<a href="https://web.facebook.com/groups/hanoishclub.officialpage" target="blank"><img src="img/fb.png"/>Tư vấn qua Facebook</a>
+</div>
+<div class="center">
+<a href="HoaQuaSale.aspx" target="blank"><img src="img/loas.png"/>HQ Khuyến mãi</a>
+</div>
+<div class="right">
+   
+<a href="tel:0913221173" target="blank"> <img src="img/phone.png"/>Gọi: 0961.371.124</a>
+</div>
+<div class="clearboth"></div>
+</div>
+</div>
+ 
+        <!-- phần header--->
+      <button id="backtoTopBtn" onclick="topFunction()" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+        <!-- ========================== thông báo nhỏ ======================================-->
+       <div class="fix_tel">
+<div class="ring-alo-phone ring-alo-green ring-alo-show" id="ring-alo-phoneIcon" style="right: 150px; bottom: -12px;">
+<div class="ring-alo-ph-circle"></div>
+<div class="ring-alo-ph-circle-fill"></div>
+<div class="ring-alo-ph-img-circle">
+<a href="tel:0384533724"><img class="lazy" src="img/phone.png" alt="G"></a>
+</div>
+</div>
+<div class="tel">
+<a href="tel:0384533724"><p class="fone">Bấm để gọi ngay</p></a>
+</div>
+</div>
+        <!--==============================-->
+        <div class="rewiu-bg">
+            <p class="title-rewiu">CHÀO MỪNG ĐẾN FRUITS DE HAUTE QUALITÉ - MỞ CỬA THỨ 1, 7:00 - 25:00 THỨ 9</p>
+        </div>
+
+        <!--==============================-->
+        <div class="nav-bg">
+
+            <a href="Trangchu.aspx" class="logo">
+                <p class="title-logo">Fruits De Haute Qualité</p>
+                <img src="img/logof.png" class="img-logo" />
+            </a>
+
+            <div class="navbars">
+                <nav class="nav-body-all">
+                    <ul class="nav-ul_items">
+                        <li class="li-nav"><a href="Trangchu.aspx" class="link-navs">Trang chủ</a></li>
+                        <li class="li-nav"><a href="PageThongTinShop.aspx" class="link-navs">giới thiệu</a></li>
+                        <li class="li-nav">
+                            <a href="" class="link-navs"> Mẫu hoa quả <i class="fa-solid fa-angle-down"></i></a>
+
+                            <!--=======================   hiện thông tin phân loại từ DB   ===========================-->
+
+                           <div class="dropdown-h swing-in-top-fwd">
+    <div class="body-all-dr">
+        <div class="img-dr">
+            <img src="img/thongtinTC.png" class="dr-imgs" />
+        </div>
+        <div class="bg-dropdown">
+
+
+              <!--====================== loại hàng ============================-->
+
+<% for (int i = 0; i < listLoaiHang.Count; i++)
+{ %>
+    <ul class="links-container">
+        <li class="links">
+           <a href="#" class="link-dr" onclick="redirectToLoaiHang('<%= listLoaiHang[i].MaLoai %>'); return false;"><%= listLoaiHang[i].TenLoai %></a>
+
+        </li>
+    </ul>
+<% } %>
+
+
+
+
+              <!--==================================================-->
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+                              <!--==================================================-->
+                        </li>
+
+                        <li class="li-nav"><a href="PageTinTuc.aspx" class="link-navs">tin tức</a></li>
+                        <li class="li-nav"><a href="HoaQuaSale.aspx" class="link-navs">Hoa quả khuyến mãi</a></li>
+                          
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+
+
+        </div>
+        <!--==============================-->
+        <div class="body-all-danhmuc">
+
+            <div class="body_danhmucs">
+               
+                <h4 class="title-ds">DANH MỤC</h4>
+            </div>
+
+            <div class="body-alls-searchs">
+
+
+
+               <div class="form-alls-search">
+    <input type="search" class="input-searchs" id="txtSearch" placeholder="Tìm kiếm trái cây...." style="width:660px;"/>
+    <button type="button" class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+</div>
+
+
+
+
+
+
+         <div class="body_icons-link">
+   
+
+    <!--==============  Hiện thông tin user ================-->
+ 
+ <%
+            if (Session["Email"] != null && Session["IDQuyen"] != null)
+            {
+                string loggedInUserEmail = Session["Email"].ToString();
+                int loggedInUserRoleID = (int)Session["IDQuyen"];
+                string loggedInUserRole = loggedInUserRoleID == 2 ? "Admin" : "User";
+
+                if (loggedInUserRole == "Admin")
+                {
+                    %>
+                    <div class="tooltip">
+                        <span class="tooltiptext">Xem thông tin tài khoản ở đây</span>
+                    </div>
+                    <p style="background: linear-gradient(0deg, rgba(34,193,195,1) 18%, rgba(20,212,158,1) 84%); color: white; padding: 4px; border-radius: 3px; cursor: pointer;" onclick="redirectToTK('<%= Session["UserID"] %>'); return false;">Xin Chào, <%= loggedInUserEmail %></p>
+                    <a href="DangXuat.aspx" class="link-icons-out"><i class="fa-solid fa-right-to-bracket"></i> </a>
+                    <a class="link-icons-out" id="openSidebar_user" style="cursor:pointer;"><i class="fa-solid fa-bars"></i></a>
+                    <%
+                }
+                else
+                {
+                    %>
+                    <div class="tooltip">
+                        <span class="tooltiptext">Xem thông tin tài khoản ở đây</span>
+                    </div>
+                    <p onclick="redirectToTK('<%= Session["UserID"] %>'); return false;" style="cursor:pointer;background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(246,105,35,1) 100%) ; color: white; padding: 4px; border-radius: 3px;">Xin Chào, <%= loggedInUserEmail %></p>
+                    <a href="DangXuat.aspx" class="link-icons-out"><i class="fa-solid fa-right-to-bracket"></i> </a>
+                   
+              <a class="link-icons-out" id="openSidebar" style="cursor:pointer;"><i class="fa-solid fa-bars"></i></a>
+                    <%
+                }
+            }
+            else
+            {
+                %>
+                <a href="DangNhap.aspx" class="link-icons">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+                <%
+            }
+            %>
+
+
+
+
+
+ <!--==================== sidebar cửa hàng  chứa thông tin user và admin ==========-->
+<!--   Admin --->
+<div class="sidebar">
+    <div class="head" style="display:flex;justify-content:space-between;align-items:center;">
+        <p style="text-transform:uppercase;">Cửa Hàng Trái Cây - Fruits De Haute Qualité</p>
+        <button id="closeSidebar" style="background-color:red;padding:10px;color:#fff;border-radius:20px;">Đóng</button>
+    </div>
+
+    <div class="bg_again-admind">
+        <i class="fa-solid fa-right-to-bracket"></i>  <a href="Admin/TrangchuAdmin.aspx">Vào Trang Chủ Admin</a>
+    </div>
+     
+
+        </div>
+             <!--   User  --->
+             <div class="sidebar_user">
+    <div class="head" style="display:flex;justify-content:space-between;align-items:center;">
+        <p style="text-transform:uppercase;">Cửa Hàng Hoa Quả - Fruits De Haute Qualite</p>
+        <button id="closeSidebar_user" style="background-color:red;padding:10px;color:#fff;border-radius:20px;">Đóng</button>
+    </div>
+
+   
+
+   <div class="bg_again-admind">
+   <i class="fa-solid fa-pen-nib"></i>
+    <a href="#" id="write-review-link">Viết phản hồi </a>
+</div>
+
+ <div class="bg_again-admind">
+  <i class="fa-solid fa-shield"></i>
+    <a href="KhoiPhucMatKhau.aspx">Đổi mật khẩu</a>
+</div>
+
+   <div class="bg_again-admind">
+   <i class="fa-brands fa-shopify"></i>
+    <a href="LichSuMuaHang.aspx">Lịch sử mua hàng</a>
+</div>
+
+             <div class="bg_again-admind">
+    <i class="fa-solid fa-right-to-bracket"></i>  
+    <a href="DangXuat.aspx">Đăng xuất</a>
+</div>
+     
+
+        </div>
+
+ <!--==============================-->
+
+  
+             
+   <a href="ChiTietDatHang.aspx" class="link-icons">
+    <i class="fa-solid fa-cart-shopping"></i>
+  
+</a>
+
+
+
+  
+
+           
+  
+             <!----------------------------------------->
+</div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+        <!-- --------------------------------->
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <!-- phần footer--->
+        <!--==============================-->
+        <div class="server-shop" style="margin-top:3rem;">
+            <div class="part-svs">
+                <i class="fa-solid fa-circle-check title-sm_shops"></i>
+                <h6 class="title-sm_shops">Hình hoa quả thật</h6>
+                <p class="title-sm_shopss">Kiểm tra hàng trước khi giao</p>
+            </div>
+            <div class="part-svs">
+                <i class="fa-solid fa-truck title-sm_shops"></i>
+                <h6 class="title-sm_shops">Giao hàng Nhanh</h6>
+                <p class=" title-sm_shopss">Giao hàng nhanh 60-120 phút</p>
+            </div>
+            <div class="part-svs">
+                <i class="fa-solid fa-credit-card title-sm_shops"></i>
+                <h6 class="title-sm_shops">Thanh Toán Dễ</h6>
+                <p class=" title-sm_shopss">Nhiều phương thức thanh toán</p>
+            </div>
+            <div class="part-svs">
+                <i class="fa-solid fa-camera title-sm_shops"></i>
+                <h6 class="title-sm_shops">Ảnh Xác Nhận</h6>
+                <p class="title-sm_shopss">Gửi hình ảnh sau khi giao</p>
+            </div>
+        </div>
+        <!--==============================-->
+
+        <!--==============================-->
+        <footer class="footer_body">
+            <div class="footer_body-sm">
+
+                <div class="footer_info">
+                    <h4 class="footer_titles">THÔNG TIN LIÊN HỆ</h4>
+
+                    <div class="footer_info-all">
+
+                        <div class="info_check">
+                            <img src="img/footer1.svg" alt="" class="img_mes">
+                            <p class="info_numbers">0961371124</p>
+                        </div>
+
+                        <div class="info_check">
+                            <img src="img/footer2.svg" alt="" class="img_mes">
+                            <img src="img/footerzalo.svg" alt="" class="img_appss">
+                            <p class="info_apps">Zalo</p>
+                        </div>
+
+                        <div class="info_check">
+                            <img src="img/footer2.svg" alt="" class="img_mes">
+                            <img src="img/footermes.png" alt="" class="img_appss">
+                            <p class="info_apps">Messenger</p>
+                        </div>
+
+                        <div class="info_check">
+                            <img src="img/footer3.svg" alt="" class="img_mes">
+                            <p class="info_apps">nhom12@gmail.com</p>
+                        </div>
+
+
+                        <div class="info_check">
+                            <img src="img/footer4.svg" alt="" class="img_mess">
+                            <p class="info_apps"> số 9 Ngõ 249, phố Đội Cấn, phường Ngọc Hà, quận Ba Đình, thành phố Hà Nội, Việt Nam</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="footer_info">
+                    <h4 class="footer_titles">SOCIAL</h4>
+                    <div class="info_checks">
+                        <img src="img/s1.svg" alt="" class="img_social-s">
+                        <p class="info_apps">Facebook</p>
+                    </div>
+
+                    <div class="info_checks">
+                        <img src="img/s2.svg" alt="" class="img_social-s">
+                        <p class="info_apps">Tiktok</p>
+                    </div>
+
+                    <div class="info_checks">
+                        <img src="img/s3.svg" alt="" class="img_social-s">
+                        <p class="info_apps">Instagram</p>
+                    </div>
+                    <div class="info_checks">
+                        <img src="img/s4.svg" alt="" class="img_social-s">
+                        <p class="info_apps">Youtube</p>
+                    </div>
+
+                </div>
+
+                <div class="footer_info">
+                    <h4 class="footer_titles">VỀ Fruits De Haute Qualité</h4>
+                    <div class="footer_info-all">
+                        <p class="info_titles">Giới thiệu</p>
+                        <p class="info_titles">Dành cho nhà cung cấp</p>
+                        <p class="info_titles">Dành cho khách hàng</p>
+                        <p class="info_titles">Câu hỏi thường gặp</p>
+                        <p class="info_titles">Hướng dẫn thanh toán</p>
+                        <p class="info_titles">Chính sách chăm sóc</p>
+                    </div>
+                </div>
+
+
+                <div class="footer_info">
+                    <h4 class="footer_titles">ĐIỀU KHOẢN VÀ CHÍNH SÁCH</h4>
+                    <div class="footer_info-all">
+                        <p class="info_titles">Chính sách giao hàng</p>
+                        <p class="info_titles">Chính sách bảo hành</p>
+                        <p class="info_titles">Chính sách đổi trả</p>
+                        <p class="info_titles">Chính sách bảo mật</p>
+                        <p class="info_titles">Chính sách giải quyết khiếu nại</p>
+                        <p class="info_titles">Tiêu chuẩn cộng đồng</p>
+                    </div>
+                </div>
+
+                <div class="footer_info">
+                    <h4 class="footer_titles">THEO DÕI TRANG PAGE SHOP</h4>
+
+                    <p class="titles-shops">Fruits De Haute Qualité</p>
+                </div>
+
+            </div>
+            <hr>
+        </footer>
+
+        <div class="body_end">
+            <h4 class="body_end-title">Nhóm 12</h4>
+            <div class="taxs">
+                <p class="body_end_tax">Do thầy Vũ Đình Thắng hướng dẫn</p>
+                <p class="body_end_tax">Nguyễn Phúc Lân - 2200536.</p>
+                <p class="body_end_tax">Hoàng Việt Dũng - 2200331</p>
+                <p class="body_end_tax">Lê Văn Đạt - 2200041</p>
+                <p class="body_end_tax">Nguyễn Anh Dũng - 2200266</p>
+            </div>
+
+            <img src="img/dangky.svg" alt="" class="img_tax">
+        </div>
+        <!--==============================-->
+
+        <!-- ---------------    code các nút liên hệ   ------------------>
+   
+<link href='https://vietblogdao.github.io/css/contact-button-widget.css' rel='stylesheet'/>
+<div class='wh-widget-send-button-desktop'>
+  <div class='wh-widget-send-button-wrapper wh-widget-right'>
+    <div class='wh-widget-hello-popup-wrapper wh-popup-right wh-hide popup-slide popup-slide-in'>
+      <div class='wh-widget-hello-popup'>
+        <div class='wh-widget-hello-popup-close'>
+          <svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+            <path d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'></path>
+            <path d='M0 0h24v24H0z' fill='none'></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+   
+
+
+    <div class='wh-widget-send-button-wrapper-list'>
+      <!--Các button liên hệ đặt tại đây-->
+      <!--Facebook-->
+<a class='wh-widget-button button-slide-out' href='#' rel='noopener nofollow' target='_blank' title=''>
+  <div class='wh-widget-button-icon wh-messenger-bg-facebook'>
+    <div>
+      <svg class='wh-messenger-svg-facebook wh-svg-icon' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+        <path d=' M16 6C9.925 6 5 10.56 5 16.185c0 3.205 1.6 6.065 4.1 7.932V28l3.745-2.056c1 .277 2.058.426 3.155.426 6.075 0 11-4.56 11-10.185C27 10.56 22.075 6 16 6zm1.093 13.716l-2.8-2.988-5.467 2.988 6.013-6.383 2.868 2.988 5.398-2.987-6.013 6.383z' fill-rule='evenodd'></path>
+      </svg>
+    </div>
+  </div>
+  <div class='mes-us'>Facebook Messenger</div>
+  <div class='clear'></div>
+</a>
+
+<!-- Zalo-->
+<a class='wh-widget-button button-slide-out' href='#' rel='noopener nofollow' target='_blank' title=''>
+  <div class='wh-widget-button-icon wh-messenger-bg-zalo'>
+    <div>
+      <svg class='wh-messenger-svg-zalo wh-svg-icon' viewBox='0 0 97.4 87.2' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+        <path d='M78.4,42c-1.4,0-2.4,0.6-3.2,1.7c-0.7,1-1,2.2-1,3.7c0,1.5,0.3,2.7,1,3.7c0.8,1.2,1.8,1.7,3.2,1.7 c1.4,0,2.5-0.6,3.2-1.7c0.7-1,1-2.2,1-3.7c0-1.4-0.3-2.6-1-3.6C80.8,42.6,79.7,42,78.4,42z' fill-rule='evenodd'></path>
+        <path d='M48.8,0C21.9,0,0,19.5,0,43.6c0,11.9,5.4,22.7,14,30.6c2.2,2-5.4,10.5-9,11.3c10.4,2.9,20.7-3.4,23.2-2.4 c6.2,2.6,13.2,4,20.5,4c26.9,0,48.7-19.5,48.7-43.6C97.5,19.5,75.7,0,48.8,0z M27.8,58.2H14.6c-3.1,0-4.6-1.1-4.6-3.3 c0-1,0.6-2.4,1.8-4l11.8-15.6h-8.5c-3.1,0-4.7-1-4.7-3c0-2,1.6-3,4.7-3h11.2c3.8,0,5.7,1.1,5.7,3.2c0,1-0.6,2.3-1.9,4L18.5,52.2 h9.3c3.1,0,4.7,1,4.7,3C32.5,57.2,30.9,58.2,27.8,58.2z M54.9,53.8c0,3.1-1.1,4.7-3.2,4.7c-1.4,0-2.4-0.7-3.1-2.2 c-1.3,1.6-3.1,2.4-5.4,2.4c-2.9,0-5.3-1.2-7.2-3.5c-1.7-2.2-2.5-4.8-2.5-7.8c0-3,0.9-5.6,2.7-7.8c1.9-2.3,4.3-3.5,7.3-3.5 c2.2,0,3.9,0.8,5.1,2.3c0.7-1.4,1.8-2,3.1-2c2.1,0,3.2,1.5,3.2,4.6V53.8z M64.7,53.8c0,3.1-1.1,4.7-3.2,4.7c-2.1,0-3.2-1.6-3.2-4.7 V31.9c0-3.1,1.1-4.7,3.2-4.7c2.1,0,3.2,1.6,3.2,4.7V53.8z M78.4,58.9c-3.2,0-5.9-1.1-7.9-3.3c-2-2.2-3-4.9-3-8.1s1-6,3-8.1 c2-2.2,4.7-3.3,7.9-3.3c3.3,0,5.9,1.1,7.9,3.3c1.9,2.1,2.9,4.9,2.9,8.1s-1,6-2.9,8.1C84.2,57.8,81.6,58.9,78.4,58.9z' fill-rule='evenodd'></path>
+        <path d='M44.4,42.2c-1.3,0-2.4,0.5-3.1,1.6c-0.7,1-1,2.1-1,3.5c0,1.4,0.3,2.6,1,3.6c0.8,1.1,1.8,1.7,3.2,1.7 c1.3,0,2.4-0.6,3.1-1.7c0.6-1,1-2.2,1-3.6c0-1.4-0.3-2.5-1-3.5C46.7,42.8,45.7,42.2,44.4,42.2z' fill-rule='evenodd'></path>
+      </svg>
+    </div>
+  </div>
+  <div class='mes-us'>Zalo Chat</div>
+  <div class='clear'></div>
+</a>
+
+<!--SMS-->
+<a class='wh-widget-button button-slide-out' href='#' rel='nofollow' title=''>
+  <div class='wh-widget-button-icon wh-messenger-bg-sms'>
+    <div>
+      <svg class='wh-messenger-icon wh-messenger-bg-sms' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+        <path d='M21 23h4.01c1.1 0 1.99-.893 1.99-1.994V8.994C27 7.894 26.11 7 25.01 7H6.99C5.89 7 5 7.893 5 8.994v12.012C5 22.106 5.89 23 6.99 23h9.566l3.114 3.504c.73.82 1.33.602 1.33-.5V23zM10.515 12.165c.36.11.682.26.962.446l-.413.88a3.882 3.882 0 0 0-.915-.416 2.9 2.9 0 0 0-.82-.136c-.3 0-.536.054-.707.16a.512.512 0 0 0-.256.46c0 .173.055.32.167.437.11.12.252.214.42.285.17.072.408.152.714.24.4.12.725.236.977.35.252.117.467.29.644.518.177.228.266.526.266.892 0 .344-.095.647-.285.907-.19.26-.453.46-.79.6-.338.14-.724.212-1.16.212-.45 0-.888-.086-1.31-.255a3.673 3.673 0 0 1-1.11-.684l.434-.863c.3.276.628.49.985.64.356.15.695.224 1.017.224.35 0 .622-.063.816-.19a.598.598 0 0 0 .292-.528.618.618 0 0 0-.174-.45 1.212 1.212 0 0 0-.43-.28 9.65 9.65 0 0 0-.713-.237 7.414 7.414 0 0 1-.977-.347 1.75 1.75 0 0 1-.637-.498c-.177-.22-.266-.51-.266-.877 0-.334.09-.625.27-.874.18-.25.434-.443.76-.578.324-.135.7-.202 1.127-.202.38 0 .75.055 1.11.165zm7.732 5.8l-.01-4.424-1.87 3.806h-.653l-1.867-3.805v4.426h-.942V12.04h1.186l1.955 3.938 1.945-3.937h1.178v5.926h-.92zm5.728-5.8c.36.11.68.26.962.446l-.413.88a3.882 3.882 0 0 0-.915-.416 2.9 2.9 0 0 0-.82-.136c-.3 0-.537.054-.707.16a.512.512 0 0 0-.257.46c0 .173.056.32.168.437.11.12.252.214.42.285.17.072.408.152.714.24.4.12.725.236.977.35.252.117.467.29.644.518.177.228.266.526.266.892 0 .344-.095.647-.285.907-.19.26-.453.46-.79.6-.338.14-.724.212-1.16.212-.45 0-.888-.086-1.31-.255a3.673 3.673 0 0 1-1.11-.684l.434-.863c.3.276.628.49.985.64.356.15.695.224 1.017.224.35 0 .622-.063.816-.19a.598.598 0 0 0 .29-.528.618.618 0 0 0-.172-.45 1.212 1.212 0 0 0-.43-.28 9.65 9.65 0 0 0-.713-.237 7.414 7.414 0 0 1-.977-.347 1.75 1.75 0 0 1-.637-.498c-.177-.22-.266-.51-.266-.877 0-.334.09-.625.27-.874.18-.25.434-.443.76-.578.324-.135.7-.202 1.126-.202.38 0 .75.055 1.112.165z' fill-rule='evenodd'></path>
+      </svg>
+    </div>
+  </div>
+  <div class='mes-us'>Send SMS</div>
+  <div class='clear'></div>
+</a>
+
+<!-- Whatsapp-->
+<a class='wh-widget-button button-slide-out' href='#' rel='nofollow' title=''>
+  <div class='wh-widget-button-icon wh-messenger-bg-whatsapp'>
+    <div>
+      <svg class="wh-messenger-icon wh-messenger-bg-whatsapp" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <path d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z" fill-rule="evenodd"></path>
+      </svg>
+    </div>
+  </div>
+  <div class='mes-us'>Whatsapp</div>
+  <div class='clear'></div>
+</a>
+
+<!--send sms-->
+<a class='wh-widget-button button-slide-out' href='#' rel='nofollow' title=''>
+  <div class='wh-widget-button-icon wh-messenger-bg-telegram'>
+    <div>
+      <svg class="wh-messenger-icon wh-messenger-bg-telegram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+        <path d=" M15.02 20.814l9.31-12.48L9.554 17.24l1.92 6.42c.225.63.114.88.767.88l.344-5.22 2.436 1.494z" opacity=".6" fill-rule="evenodd"></path><path d=" M12.24 24.54c.504 0 .727-.234 1.008-.51l2.687-2.655-3.35-2.054-.344 5.22z" opacity=".3" fill-rule="evenodd"></path><path d=" M12.583 19.322l8.12 6.095c.926.52 1.595.25 1.826-.874l3.304-15.825c.338-1.378-.517-2.003-1.403-1.594L5.024 14.727c-1.325.54-1.317 1.29-.24 1.625l4.98 1.58 11.53-7.39c.543-.336 1.043-.156.633.214" fill-rule="evenodd"></path>
+      </svg>
+    </div>
+  </div>
+  <div class='mes-us'>Send SMS</div>
+  <div class='clear'></div>
+</a>
+
+<!--Line-->
+<a class='wh-widget-button button-slide-out' href='#' rel='nofollow' title=''>
+  <div class='wh-widget-button-icon wh-messenger-bg-line'>
+    <div>
+      <svg class="wh-messenger-icon wh-messenger-bg-line" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <path d="M27 14.926C27 10.006 22.065 6 16 6S5 10.005 5 14.926c0 4.413 3.913 8.11 9.2 8.808.358.077.845.236.968.542.112.278.073.713.036.995l-.157.942c-.048.28-.22 1.088.953.593 1.174-.494 6.334-3.73 8.642-6.386C26.236 18.67 27 16.896 27 14.925zm-4.247-.41a.577.577 0 0 1 0 1.153h-1.61v1.03h1.61a.578.578 0 0 1 0 1.155h-2.186a.578.578 0 0 1-.577-.577v-4.37c0-.32.26-.578.577-.578h2.186a.578.578 0 0 1 0 1.153h-1.61v1.033h1.61zm-3.537 2.762a.575.575 0 0 1-.578.577.58.58 0 0 1-.46-.23l-2.24-3.05v2.703a.577.577 0 0 1-1.154 0v-4.37a.577.577 0 0 1 1.038-.347l2.24 3.05v-2.703a.578.578 0 0 1 1.154 0v4.37zm-5.26 0a.577.577 0 0 1-1.154 0v-4.37a.577.577 0 0 1 1.153 0v4.37zm-2.262.577H9.508a.577.577 0 0 1-.576-.577v-4.37a.577.577 0 0 1 1.153 0V16.7h1.61a.577.577 0 0 1 0 1.155z" fill-rule="evenodd"></path>
+      </svg>
+    </div>
+  </div>
+  <div class='mes-us'>Line</div>
+  <div class='clear'></div>
+</a>
+
+<!-- Email-->
+<a class='wh-widget-button button-slide-out' href='#' rel='nofollow' title=''>
+  <div class='wh-widget-button-icon wh-messenger-bg-email'>
+    <div>
+      <svg class="wh-messenger-icon wh-messenger-bg-email" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <path d=" M27 22.757c0 1.24-.988 2.243-2.19 2.243H7.19C5.98 25 5 23.994 5 22.757V13.67c0-.556.39-.773.855-.496l8.78 5.238c.782.467 1.95.467 2.73 0l8.78-5.238c.472-.28.855-.063.855.495v9.087z" fill-rule="evenodd"></path><path d=" M27 9.243C27 8.006 26.02 7 24.81 7H7.19C5.988 7 5 8.004 5 9.243v.465c0 .554.385 1.232.857 1.514l9.61 5.733c.267.16.8.16 1.067 0l9.61-5.733c.473-.283.856-.96.856-1.514v-.465z" fill-rule="evenodd"></path>
+       </svg>
+    </div>
+  </div>
+  <div class='mes-us'>Gửi Email</div>
+  <div class='clear'></div>
+</a>
+
+      <a class='wh-widget-button wh-widget-button-activator' href='javascript:void(0);'>
+        <div class='wh-widget-button-icon wh-messenger-bg-activator' style='background-color:#129BF4;'>
+          <div>
+            <svg class='wh-messenger-svg-close wh-svg-close' viewBox='-9 -10 41 44' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+              <path d=' M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z' fill-rule='evenodd'></path>
+            </svg>
+            <i class='wh-icon-whatshelp wh-svg-icon'></i>
+          </div>
+        </div>
+        <div class='clear'></div>
+      </a>
+    </div>
+    <div class='clear'></div>
+  </div>
+</div>
+
+        <!-- modal hiện viết đánh giá --------------------------------------------------------------------------->
+<div id="review-modal" class="modal_users">
+    <div class="modal-content_users">
+        <span class="close_users">&times;</span>
+        <div id="review-form">
+             <p style="text-align:center;text-transform:uppercase;font-size:22px;color:#333;font-weight:600;padding:1rem 0;border-bottom:1px solid #1BBC9B;letter-spacing:1px;">Viết Phản hồi </p>
+            <div class="review-section">              
+        <div class="body_input-rewiu">
+            <div class="input_rv">
+                <label class="label_rv">Nhập Họ và Tên</label>
+                <input type="text" id="txtUserName" class="review-input" placeholder="Nhập tên của bạn..." runat="server" />
+                <span id="userNameError" class="error-message" style="color: red; display: none;">Vui lòng nhập Họ và Tên</span>
+            </div>
+            <div class="input_rv">
+                <label class="label_rv">Nhập Email</label>
+                <input type="email" id="txtUserEmail" class="review-input" placeholder="Nhập Email của bạn..." runat="server" />
+                <span id="userEmailError" class="error-message" style="color: red; display: none;">Vui lòng nhập Email hợp lệ</span>
+            </div>
+        </div>
+
+        <div class="input_text-rv">
+            <label class="label_rv">Nhập Nội Dung Đánh Giá</label>
+            <textarea id="txtComment" class="review-textarea" rows="4" cols="50" placeholder="Nhập đánh giá của bạn" runat="server"></textarea>
+            <span id="commentError" class="error-message" style="color: red; display: none;">Vui lòng nhập Nội Dung Đánh Giá</span>
+        </div>
+
+        <asp:Button runat="server" ID="btnDathang" CssClass="btn-submit-review" OnClick="btnClick" Text="Gửi phản hồi"/>
+    </div>
+
+
+        </div>
+    </div>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------->
+    </form>
+   
+   
+    <!-- JS nút liên hệ ----------------------------------------------------------------------------------->
+  <script>
+      $('.wh-messenger-bg-activator').on('click', function () {
+          $(this).parent().parent().toggleClass('wh-widget-show-get-button wh-widget-activator-as-close wh-widget-activate');
+          var call_to_action = $(this).parent().parent().parent().find('#wh-call-to-action');
+          var widget_button = $(this).parent().parent().find('.wh-widget-button');
+          if ($(call_to_action).hasClass('wh-animation-in')) {
+              $(call_to_action).removeClass('wh-animation-in').addClass('wh-animation-out wh-hide');
+          } else {
+              $(call_to_action).addClass('wh-animation-in').removeClass('wh-animation-out wh-hide');
+          }
+          if ($(widget_button).not('.wh-widget-button-activator').hasClass('button-slide-out')) {
+              $(widget_button).not('.wh-widget-button-activator').removeClass('button-slide-out').addClass('button-slide');
+          } else {
+              $(widget_button).not('.wh-widget-button-activator').addClass('button-slide-out').removeClass('button-slide');
+          }
+      });
+
+
+      // Js hiện sidebar cửa hàng -----------------------------------------------------------
+
+      //----- Admin 
+      $(document).ready(function () {
+          $('#openSidebar').click(function (event) {
+              event.preventDefault(); // ngăn chặn load lại trang ==========
+              $('.sidebar').addClass('show');
+          });
+
+          $('#closeSidebar').click(function (event) {
+              event.preventDefault();
+              $('.sidebar').removeClass('show');
+          });
+      });
+
+      // ------ User
+      $(document).ready(function () {
+          $('#openSidebar_user').click(function (event) {
+              event.preventDefault(); // ngăn chặn load lại trang ==========
+              $('.sidebar_user').addClass('show_user');
+          });
+
+          $('#closeSidebar_user').click(function (event) {
+              event.preventDefault();
+              $('.sidebar_user').removeClass('show_user');
+          });
+      });
+      //-------------------------------------------------------------------------------------
+      document.getElementById('<%= btnDathang.ClientID %>').addEventListener('click', function (event) {
+          var isValid = true;
+
+          var userName = document.getElementById('<%= txtUserName.ClientID %>').value;
+        var userEmail = document.getElementById('<%= txtUserEmail.ClientID %>').value;
+          var comment = document.getElementById('<%= txtComment.ClientID %>').value;
+
+          var userNameError = document.getElementById('userNameError');
+          var userEmailError = document.getElementById('userEmailError');
+          var commentError = document.getElementById('commentError');
+
+          if (!userName) {
+              userNameError.style.display = 'block';
+              isValid = false;
+          } else {
+              userNameError.style.display = 'none';
+          }
+
+          if (!userEmail || !validateEmail(userEmail)) {
+              userEmailError.style.display = 'block';
+              isValid = false;
+          } else {
+              userEmailError.style.display = 'none';
+          }
+
+          if (!comment) {
+              commentError.style.display = 'block';
+              isValid = false;
+          } else {
+              commentError.style.display = 'none';
+          }
+
+          if (!isValid) {
+              event.preventDefault();
+          }
+      });
+
+      function validateEmail(email) {
+          var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          return re.test(email);
+      }
+
+      //------------------------- nút quay lại đầu trang -----------------------------------
+      let mybuttonson = document.getElementById("backtoTopBtn");
+
+      window.onscroll = function () {
+          scrollFunction();
+      };
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 20) {
+              mybuttonson.style.display = "block";
+          } else {
+              mybuttonson.style.display = "none";
+          }
+      }
+
+      function topFunction() {
+          event.preventDefault();
+          window.scrollTo({
+              top: 0,
+              behavior: 'smooth' 
+          });
+        
+      }
+      //
+     
+  </script>
+    <script type="text/javascript">
+        // Js xem thông tin khách hàng và các thông báo khác ----------------------------------------------------
+        function redirectToTK(matk) {
+            window.location.href = 'ThongTinKhachHang.aspx?MaNguoiDung=' + matk;
+        }
+
+        window.onload = function () {
+            setTimeout(function () {
+                var tooltips = document.getElementsByClassName('tooltip');
+                for (var i = 0; i < tooltips.length; i++) {
+                    tooltips[i].classList.add('show');
+                }
+            }, 2000); 
+
+           
+            setTimeout(function () {
+                var tooltips = document.getElementsByClassName('tooltip');
+                for (var i = 0; i < tooltips.length; i++) {
+                    tooltips[i].classList.remove('show');
+                }
+            }, 6000); 
+        };
+        //-------------------------------------------------------------------------------------------
+        $(document).ready(function () {
+            $("#write-review-link").click(function () {
+                $("#review-modal").css("display", "block");
+            });
+
+            $(".close_users").click(function () {
+                $("#review-modal").css("display", "none");
+            });
+
+            $(window).click(function (event) {
+                if (event.target == $("#review-modal")[0]) {
+                    $("#review-modal").css("display", "none");
+                }
+            });
+
+            $("#review-form").submit(function (event) {
+                event.preventDefault();
+               
+            });
+        });
+
+</script>
+
+
+    <!-- css dropdown giỏ hàng -->
+    <style>
+       .link-dr_carts {
+           padding:12px;
+           background-color:#1BBC9B;
+           border-radius:10px;
+          color:#fff;
+       }
+        .dropdown-cart {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 630px;
+    top: 26%;
+    right: 0;
+    z-index: 1000;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.link-icons:hover + .dropdown-cart,
+.dropdown-cart:hover {
+    display: block;
+}
+
+.bg_dropdown-all {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.title_dropdown-pr {
+    font-size: 18px;
+    font-weight: bold;
+  
+    text-align: center;
+   
+    padding:10px;
+            border-radius:10px;
+            color:white;
+            background-color:#1BBC9B;
+}
+
+.dropdown-cart ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-cart ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.table_bodys {
+    width: 100%;
+    border-collapse: collapse;
+  margin-top:.78rem;
+}
+
+.table_bodys th, .table_bodys td {
+    padding: 10px;
+    text-align: center;
+    font-size:13px;
+}
+
+.table_bodys th {
+   background-color:#333;
+    font-weight: bold;
+     color:#fff;
+}
+
+.table_bodys td img {
+    border-radius: 5px;
+}
+
+.btn-delete {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
+
+ .sidebar {
+        position: fixed;
+        top: 0;
+        right: -345px;
+        width: 345px;
+        height: 100%;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: right 0.3s ease;
+        z-index: 9999;
+    }
+
+    .sidebar.show {
+        right: 0;
+    }
+
+    .head {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    #closeSidebar {
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .bg_again-admind {
+        padding:1rem;
+        border-bottom:1px solid #333;
+    }
+    .bg_again-admind a {
+        color:#333;
+    }
+
+     .tooltip {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        top: 64px; 
+        left: 82%;
+        transform: translateX(-50%);
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 10px;
+        z-index: 1000;
+        width: 200px;
+        transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    }
+
+    .tooltip.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .tooltip::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+    }
+
+     .sidebar_user {
+        position: fixed;
+        top: 0;
+        right: -345px;
+        width: 345px;
+        height: 100%;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: right 0.3s ease;
+        z-index: 9999;
+    }
+
+    .sidebar_user.show_user {
+        right: 0;
+    }
+
+   
+
+    #closeSidebar_user {
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+
+    .modal_users {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content_users {
+    background-color: #fefefe;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 55%;
+    margin-top:3rem;
+}
+
+.close_users {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close_users:hover,
+.close_users:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#backtoTopBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 80px; 
+    right: 22px; 
+    z-index: 99;
+    border: none; 
+    outline: none; 
+    background-color: #000; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px;
+    border-radius: 50%; 
+    font-size: 18px; 
+    transition: opacity 0.3s ease;
+}
+
+#backtoTopBtn:hover {
+    background-color: #555; 
+}
+
+
+
+    </style>
+      <!-- ------------------------------------ -->
+</body>
+</html>

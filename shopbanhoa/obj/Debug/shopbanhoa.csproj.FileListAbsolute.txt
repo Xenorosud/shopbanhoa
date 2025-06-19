@@ -1,0 +1,52 @@
+D:\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll.config
+D:\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll
+D:\shopbanhoa\shopbanhoa\bin\shopbanhoa.pdb
+D:\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.dll
+D:\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.pdb
+D:\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.csprojResolveAssemblyReference.cache
+D:\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll.config
+D:\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll
+D:\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.pdb
+D:\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.csprojResolveAssemblyReference.cache
+D:\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.dll
+D:\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.pdb
+D:\Website-VS-2013\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll.config
+D:\Website-VS-2013\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll
+D:\Website-VS-2013\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.pdb
+D:\Website-VS-2013\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.dll
+D:\Website-VS-2013\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.pdb
+C:\Users\hakyz\OneDrive\Máy tính\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll.config
+C:\Users\hakyz\OneDrive\Máy tính\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll
+C:\Users\hakyz\OneDrive\Máy tính\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.pdb
+C:\Users\hakyz\OneDrive\Máy tính\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.csproj.AssemblyReference.cache
+C:\Users\hakyz\OneDrive\Máy tính\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.csproj.CoreCompileInputs.cache
+C:\Users\hakyz\OneDrive\Máy tính\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.dll
+C:\Users\hakyz\OneDrive\Máy tính\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.pdb
+F:\new\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll.config
+F:\new\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll
+F:\new\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.pdb
+F:\new\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.csproj.AssemblyReference.cache
+F:\new\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.csproj.CoreCompileInputs.cache
+F:\new\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.dll
+F:\new\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.pdb
+C:\Users\hakyz\OneDrive\Máy tính\new\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll.config
+C:\Users\hakyz\OneDrive\Máy tính\new\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll
+C:\Users\hakyz\OneDrive\Máy tính\new\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.pdb
+C:\Users\hakyz\OneDrive\Máy tính\new\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.csproj.AssemblyReference.cache
+C:\Users\hakyz\OneDrive\Máy tính\new\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.csproj.CoreCompileInputs.cache
+C:\Users\hakyz\OneDrive\Máy tính\new\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.dll
+C:\Users\hakyz\OneDrive\Máy tính\new\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.pdb
+C:\Users\Admin\Downloads\new\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll.config
+C:\Users\Admin\Downloads\new\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll
+C:\Users\Admin\Downloads\new\Full-website-4T\shopbanhoa\shopbanhoa\bin\shopbanhoa.pdb
+C:\Users\Admin\Downloads\new\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\new\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\new\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.dll
+C:\Users\Admin\Downloads\new\Full-website-4T\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.pdb
+C:\Users\Admin\OneDrive\Máy tính\Back up\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll.config
+C:\Users\Admin\OneDrive\Máy tính\Back up\shopbanhoa\shopbanhoa\bin\shopbanhoa.dll
+C:\Users\Admin\OneDrive\Máy tính\Back up\shopbanhoa\shopbanhoa\bin\shopbanhoa.pdb
+C:\Users\Admin\OneDrive\Máy tính\Back up\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\Back up\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\Back up\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.dll
+C:\Users\Admin\OneDrive\Máy tính\Back up\shopbanhoa\shopbanhoa\obj\Debug\shopbanhoa.pdb

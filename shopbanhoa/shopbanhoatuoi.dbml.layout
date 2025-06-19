@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12, 14.25" name="shopbanhoatuoi">
+  <DataContextMoniker Name="/shopbanhoatuoiDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c6b77ecd-3289-4517-8dd4-999e14463bfd" absoluteBounds="6.25, 6, 2, 3.5016097005208309">
+      <DataClassMoniker Name="/shopbanhoatuoiDataContext/ChiTietDatHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3d61fd95-09a8-47d1-a15b-2f03fb89eb49" absoluteBounds="6.265, 6.46, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6dba58c8-3a90-4f8c-b877-ad9e28ab8f2b" absoluteBounds="6.75, 1.75, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/shopbanhoatuoiDataContext/TinTuc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e5e66a19-b18a-46f2-908b-063836c963a5" absoluteBounds="6.765, 2.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3b83c474-480a-4ab9-9a5e-a8962cd6f0bf" absoluteBounds="0.75, 9.75, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/shopbanhoatuoiDataContext/ThongTinDangNhap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1002e9c0-7435-4c53-b0a2-c7a036b2b627" absoluteBounds="0.765, 10.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="991665d7-4cb3-4d4f-8582-71d672d34328" absoluteBounds="8.75, 4.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/shopbanhoatuoiDataContext/TaiKhoanDangKy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="850797ca-35c5-4569-8ac9-174f7046907c" absoluteBounds="8.765, 5.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3d1d7b2d-6d1b-4d34-b8ad-7e3821213990" absoluteBounds="3.5, 6.75, 2, 2.1554996744791657">
+      <DataClassMoniker Name="/shopbanhoatuoiDataContext/TaiKhoan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="64454814-0412-4a4b-bfcf-2cba3ce14140" absoluteBounds="3.515, 7.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0febb23a-81cc-4485-a104-c649b65d9a75" absoluteBounds="8.75, 7.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/shopbanhoatuoiDataContext/Slider" />
+      <nestedChildShapes>
+        <elementListCompartment Id="af7c0243-d282-4531-b7d3-e361c8cfc7be" absoluteBounds="8.765, 8.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="74af2cc0-dbb9-40c8-a16c-49bec43448d0" absoluteBounds="3.5, 2, 2, 2.732403971354167">
+      <DataClassMoniker Name="/shopbanhoatuoiDataContext/SanPham" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3423433d-e7a1-4f90-b2ae-41660cd184f1" absoluteBounds="3.515, 2.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="41e29973-c17a-451e-a0d8-121fb19d9adf" absoluteBounds="8.75, 9.75, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/shopbanhoatuoiDataContext/Review" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2ecf4171-7d30-4016-8f3c-f0db4b8456d2" absoluteBounds="8.765, 10.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eb4074a8-b707-41da-9a5b-0bfae1b7f253" absoluteBounds="0.75, 7.125, 2, 1.1939925130208353">
+      <DataClassMoniker Name="/shopbanhoatuoiDataContext/PhanQuyen" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9552d935-41d2-4ad8-9f79-c99b35f66c34" absoluteBounds="0.765, 7.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8fcf760b-eec3-45f8-a07e-5dd47bb51d61" absoluteBounds="0.75, 2.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/shopbanhoatuoiDataContext/NhaCungCap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8270accc-5541-4396-b5f3-6be4d6a91386" absoluteBounds="0.765, 3.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0d5a2448-49ce-4d37-b44f-6e8171911a26" absoluteBounds="9.75, 1.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/shopbanhoatuoiDataContext/MaGiamGia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bb057357-d374-434e-8d3d-77769a5ebda0" absoluteBounds="9.765, 2.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="682f0726-0998-4ba2-b1d7-93b667c33937" absoluteBounds="0.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/shopbanhoatuoiDataContext/LoaiHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="055f87db-b0f8-4067-aaf9-b675a3c624cb" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="39d5ea8a-c99a-44b0-9440-e58abbef8b50" absoluteBounds="3.75, 10.75, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/shopbanhoatuoiDataContext/DatHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9cdb28cc-60af-4965-b821-8579ac700464" absoluteBounds="3.765, 11.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 7.82774983723958); (6.25 : 7.82774983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/shopbanhoatuoiDataContext/TaiKhoan/TaiKhoan_ChiTietDatHang" />
+      <nodes>
+        <classShapeMoniker Id="3d1d7b2d-6d1b-4d34-b8ad-7e3821213990" />
+        <classShapeMoniker Id="c6b77ecd-3289-4517-8dd4-999e14463bfd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 7.72199625651042); (3.5 : 7.72199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/shopbanhoatuoiDataContext/PhanQuyen/PhanQuyen_TaiKhoan" />
+      <nodes>
+        <classShapeMoniker Id="eb4074a8-b707-41da-9a5b-0bfae1b7f253" />
+        <classShapeMoniker Id="3d1d7b2d-6d1b-4d34-b8ad-7e3821213990" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.34699625651042); (3.5 : 3.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/shopbanhoatuoiDataContext/NhaCungCap/NhaCungCap_SanPham" />
+      <nodes>
+        <classShapeMoniker Id="8fcf760b-eec3-45f8-a07e-5dd47bb51d61" />
+        <classShapeMoniker Id="74af2cc0-dbb9-40c8-a16c-49bec43448d0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.34699625651042); (4.5 : 1.34699625651042); (4.5 : 2)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/shopbanhoatuoiDataContext/LoaiHang/LoaiHang_SanPham" />
+      <nodes>
+        <classShapeMoniker Id="682f0726-0998-4ba2-b1d7-93b667c33937" />
+        <classShapeMoniker Id="74af2cc0-dbb9-40c8-a16c-49bec43448d0" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

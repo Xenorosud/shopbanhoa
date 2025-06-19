@@ -1,0 +1,855 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\back up\\shopbanhoa\\shopbanhoa\\trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\trangchu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\back up\\shopbanhoa\\shopbanhoa\\product\\sanphamyeuthich.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\sanphamyeuthich.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\back up\\shopbanhoa\\shopbanhoa\\yeuthichhoaqua.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\yeuthichhoaqua.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\pagehqmd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\pagehqmd.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\back up\\shopbanhoa\\shopbanhoa\\product\\tatcahoaqua.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\tatcahoaqua.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\product\\tatcahoaqua.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\tatcahoaqua.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\product\\dathangct.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\dathangct.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\tatcahoa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\tatcahoa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\back up\\shopbanhoa\\shopbanhoa\\product\\dathangct.ascx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\dathangct.ascx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\back up\\shopbanhoa\\shopbanhoa\\product\\chitietsp.ascx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\chitietsp.ascx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\product\\chitietsp.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\chitietsp.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\back up\\shopbanhoa\\shopbanhoa\\product\\hoaquangaunhien.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\hoaquangaunhien.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\back up\\shopbanhoa\\shopbanhoa\\product\\hoaquangaunhien.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\hoaquangaunhien.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\back up\\shopbanhoa\\shopbanhoa\\yeuthichhoaqua.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\yeuthichhoaqua.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\hoaquasale.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\hoaquasale.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\product\\dangkynguoidung.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\dangkynguoidung.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\adminhome.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\adminhome.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\product\\trangloaihoaqua.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\trangloaihoaqua.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\homeshop.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\homeshop.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\product\\dangnhapnguoidung.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\dangnhapnguoidung.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\admin\\css\\stylesheet1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\admin\\css\\stylesheet1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\product\\hoaquakhuyenmai.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\hoaquakhuyenmai.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\product\\timkiemsanpham.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\timkiemsanpham.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\admin\\useradmin\\themsanpham.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\admin\\useradmin\\themsanpham.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\admin\\themsphoaqua.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\admin\\themsphoaqua.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\pagetintuc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\pagetintuc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\admin\\useradmin\\loaihoaqua.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\admin\\useradmin\\loaihoaqua.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\admin\\themloaihoaqua.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\admin\\themloaihoaqua.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\pagehcnk.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\pagehcnk.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\pagehqmh.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\pagehqmh.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\trangloaihoa.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\trangloaihoa.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\product\\hqnknb.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\hqnknb.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\trangloaihoa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\trangloaihoa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\pagehcnk.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\pagehcnk.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\trangloaihoa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\trangloaihoa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\pagehqmd.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\pagehqmd.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\pagehqmh.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\pagehqmh.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\hoaquasale.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\hoaquasale.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\product\\hqnk.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\hqnk.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\pagehcnk.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\pagehcnk.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\pagehqmd.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\pagehqmd.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\product\\hqmd.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\hqmd.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\product\\hqmh.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\hqmh.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\product\\hqnk.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\hqnk.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\product\\hqmhnb.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\hqmhnb.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\product\\hqmdnb.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\product\\hqmdnb.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\thankyou.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{726F6840-7A83-46EA-90FE-0D8B18D24731}|shopbanhoa\\shopbanhoa.csproj|solutionrelative:shopbanhoa\\thankyou.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PAGEHQMD.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHQMD.aspx",
+              "RelativeDocumentMoniker": "shopbanhoa\\PAGEHQMD.aspx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHQMD.aspx",
+              "RelativeToolTip": "shopbanhoa\\PAGEHQMD.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-29T15:44:10.736Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Trangchu.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Trangchu.aspx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Trangchu.aspx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Trangchu.aspx",
+              "RelativeToolTip": "shopbanhoa\\Trangchu.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-31T15:37:51.752Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TatCaHoaQua.ascx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\TatCaHoaQua.ascx.cs",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\TatCaHoaQua.ascx.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\TatCaHoaQua.ascx.cs",
+              "RelativeToolTip": "shopbanhoa\\Product\\TatCaHoaQua.ascx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T07:09:05.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "YeuThichHoaQua.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\YeuThichHoaQua.aspx",
+              "RelativeDocumentMoniker": "shopbanhoa\\YeuThichHoaQua.aspx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\YeuThichHoaQua.aspx",
+              "RelativeToolTip": "shopbanhoa\\YeuThichHoaQua.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-19T06:51:37.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SanPhamYeuThich.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\SanPhamYeuThich.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\SanPhamYeuThich.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\SanPhamYeuThich.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\SanPhamYeuThich.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-06-19T06:56:00.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Style.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\css\\Style.css",
+              "RelativeDocumentMoniker": "shopbanhoa\\css\\Style.css",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\css\\Style.css",
+              "RelativeToolTip": "shopbanhoa\\css\\Style.css",
+              "ViewState": "AgIAAN4FAAAAAAAAAAAMwO0FAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-01T05:36:27.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DatHangCT.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\DatHangCT.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\DatHangCT.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\DatHangCT.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\DatHangCT.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-05-31T17:04:33.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TatCaHoa.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\TatCaHoa.aspx",
+              "RelativeDocumentMoniker": "shopbanhoa\\TatCaHoa.aspx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\TatCaHoa.aspx",
+              "RelativeToolTip": "shopbanhoa\\TatCaHoa.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-31T15:47:32.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatHangCT.ascx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\DatHangCT.ascx.designer.cs",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\DatHangCT.ascx.designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\DatHangCT.ascx.designer.cs",
+              "RelativeToolTip": "shopbanhoa\\Product\\DatHangCT.ascx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAvwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T07:02:34.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TatCaHoaQua.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\TatCaHoaQua.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\TatCaHoaQua.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\TatCaHoaQua.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\TatCaHoaQua.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-05-31T15:48:41.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChiTietSP.ascx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\ChiTietSP.ascx.designer.cs",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\ChiTietSP.ascx.designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\ChiTietSP.ascx.designer.cs",
+              "RelativeToolTip": "shopbanhoa\\Product\\ChiTietSP.ascx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T07:02:03.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChiTietSP.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\ChiTietSP.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\ChiTietSP.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\ChiTietSP.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\ChiTietSP.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-05-29T15:34:36.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HoaQuaNgauNhien.ascx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HoaQuaNgauNhien.ascx.cs",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\HoaQuaNgauNhien.ascx.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HoaQuaNgauNhien.ascx.cs",
+              "RelativeToolTip": "shopbanhoa\\Product\\HoaQuaNgauNhien.ascx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T07:04:34.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HoaQuaNgauNhien.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HoaQuaNgauNhien.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\HoaQuaNgauNhien.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HoaQuaNgauNhien.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\HoaQuaNgauNhien.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-06-19T07:03:41.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "YeuThichHoaQua.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\YeuThichHoaQua.aspx.cs",
+              "RelativeDocumentMoniker": "shopbanhoa\\YeuThichHoaQua.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\YeuThichHoaQua.aspx.cs",
+              "RelativeToolTip": "shopbanhoa\\YeuThichHoaQua.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T06:54:07.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DangKyNguoiDung.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\DangKyNguoiDung.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\DangKyNguoiDung.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\DangKyNguoiDung.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\DangKyNguoiDung.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-06-01T05:42:20.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TrangLoaiHoaQua.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\TrangLoaiHoaQua.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\TrangLoaiHoaQua.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\TrangLoaiHoaQua.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\TrangLoaiHoaQua.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-05-31T16:24:43.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminHome.Master",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\AdminHome.Master",
+              "RelativeDocumentMoniker": "shopbanhoa\\AdminHome.Master",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\AdminHome.Master",
+              "RelativeToolTip": "shopbanhoa\\AdminHome.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-31T15:34:48.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HoaQuaSale.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\HoaQuaSale.aspx",
+              "RelativeDocumentMoniker": "shopbanhoa\\HoaQuaSale.aspx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\HoaQuaSale.aspx",
+              "RelativeToolTip": "shopbanhoa\\HoaQuaSale.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-31T16:28:23.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeShop.Master",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\HomeShop.Master",
+              "RelativeDocumentMoniker": "shopbanhoa\\HomeShop.Master",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\HomeShop.Master",
+              "RelativeToolTip": "shopbanhoa\\HomeShop.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-29T15:25:40.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DangNhapNguoiDung.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\DangNhapNguoiDung.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\DangNhapNguoiDung.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\DangNhapNguoiDung.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\DangNhapNguoiDung.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-06-01T05:41:21.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StyleSheet1.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Admin\\css\\StyleSheet1.css",
+              "RelativeDocumentMoniker": "shopbanhoa\\Admin\\css\\StyleSheet1.css",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Admin\\css\\StyleSheet1.css",
+              "RelativeToolTip": "shopbanhoa\\Admin\\css\\StyleSheet1.css",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-17T17:01:46.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Web.config",
+              "RelativeDocumentMoniker": "shopbanhoa\\Web.config",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Web.config",
+              "RelativeToolTip": "shopbanhoa\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-29T14:35:56.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HoaQuaKhuyenMai.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HoaQuaKhuyenMai.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\HoaQuaKhuyenMai.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HoaQuaKhuyenMai.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\HoaQuaKhuyenMai.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-05-31T16:20:09.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TimKiemSanPham.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\TimKiemSanPham.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\TimKiemSanPham.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\TimKiemSanPham.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\TimKiemSanPham.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-06-04T06:23:51.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ThemSPHoaQua.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Admin\\ThemSPHoaQua.aspx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Admin\\ThemSPHoaQua.aspx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Admin\\ThemSPHoaQua.aspx",
+              "RelativeToolTip": "shopbanhoa\\Admin\\ThemSPHoaQua.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-31T15:43:20.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ThemSanPham.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Admin\\UserAdmin\\ThemSanPham.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Admin\\UserAdmin\\ThemSanPham.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Admin\\UserAdmin\\ThemSanPham.ascx",
+              "RelativeToolTip": "shopbanhoa\\Admin\\UserAdmin\\ThemSanPham.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-05-31T15:40:57.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PageTinTuc.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PageTinTuc.aspx",
+              "RelativeDocumentMoniker": "shopbanhoa\\PageTinTuc.aspx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PageTinTuc.aspx",
+              "RelativeToolTip": "shopbanhoa\\PageTinTuc.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-01T05:34:12.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoaiHoaQua.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Admin\\UserAdmin\\LoaiHoaQua.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Admin\\UserAdmin\\LoaiHoaQua.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Admin\\UserAdmin\\LoaiHoaQua.ascx",
+              "RelativeToolTip": "shopbanhoa\\Admin\\UserAdmin\\LoaiHoaQua.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-05-31T15:41:38.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ThemLoaiHoaQua.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Admin\\ThemLoaiHoaQua.aspx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Admin\\ThemLoaiHoaQua.aspx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Admin\\ThemLoaiHoaQua.aspx",
+              "RelativeToolTip": "shopbanhoa\\Admin\\ThemLoaiHoaQua.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-31T15:43:14.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PAGEHQMD.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHQMD.aspx.cs",
+              "RelativeDocumentMoniker": "shopbanhoa\\PAGEHQMD.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHQMD.aspx.cs",
+              "RelativeToolTip": "shopbanhoa\\PAGEHQMD.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:40:33.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "HoaQuaSale.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\HoaQuaSale.aspx.designer.cs",
+              "RelativeDocumentMoniker": "shopbanhoa\\HoaQuaSale.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\HoaQuaSale.aspx.designer.cs",
+              "RelativeToolTip": "shopbanhoa\\HoaQuaSale.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:30:00.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PAGEHQMH.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHQMH.aspx.cs",
+              "RelativeDocumentMoniker": "shopbanhoa\\PAGEHQMH.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHQMH.aspx.cs",
+              "RelativeToolTip": "shopbanhoa\\PAGEHQMH.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:40:01.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TrangLoaiHoa.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\TrangLoaiHoa.aspx.designer.cs",
+              "RelativeDocumentMoniker": "shopbanhoa\\TrangLoaiHoa.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\TrangLoaiHoa.aspx.designer.cs",
+              "RelativeToolTip": "shopbanhoa\\TrangLoaiHoa.aspx.designer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAawCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:25:34.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TrangLoaiHoa.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\TrangLoaiHoa.aspx.cs",
+              "RelativeDocumentMoniker": "shopbanhoa\\TrangLoaiHoa.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\TrangLoaiHoa.aspx.cs",
+              "RelativeToolTip": "shopbanhoa\\TrangLoaiHoa.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:25:30.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PAGEHQMD.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHQMD.aspx.designer.cs",
+              "RelativeDocumentMoniker": "shopbanhoa\\PAGEHQMD.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHQMD.aspx.designer.cs",
+              "RelativeToolTip": "shopbanhoa\\PAGEHQMD.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:15:39.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "HQMD.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HQMD.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\HQMD.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HQMD.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\HQMD.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-05-31T16:14:51.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PAGEHCNK.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHCNK.aspx.cs",
+              "RelativeDocumentMoniker": "shopbanhoa\\PAGEHCNK.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHCNK.aspx.cs",
+              "RelativeToolTip": "shopbanhoa\\PAGEHCNK.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:14:35.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PAGEHCNK.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHCNK.aspx.designer.cs",
+              "RelativeDocumentMoniker": "shopbanhoa\\PAGEHCNK.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHCNK.aspx.designer.cs",
+              "RelativeToolTip": "shopbanhoa\\PAGEHCNK.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:10:25.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "HQNK.ascx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HQNK.ascx.cs",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\HQNK.ascx.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HQNK.ascx.cs",
+              "RelativeToolTip": "shopbanhoa\\Product\\HQNK.ascx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:09:51.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "HQMHNB.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HQMHNB.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\HQMHNB.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HQMHNB.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\HQMHNB.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-05-31T15:59:26.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "HQMDNB.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HQMDNB.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\HQMDNB.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HQMDNB.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\HQMDNB.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-05-31T15:59:05.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HQNKNB.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HQNKNB.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\HQNKNB.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HQNKNB.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\HQNKNB.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-05-31T15:58:51.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "HQMH.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HQMH.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\HQMH.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HQMH.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\HQMH.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-05-31T15:54:30.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "HQNK.ascx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HQNK.ascx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Product\\HQNK.ascx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Product\\HQNK.ascx",
+              "RelativeToolTip": "shopbanhoa\\Product\\HQNK.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-05-31T15:53:38.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Thankyou.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Thankyou.aspx",
+              "RelativeDocumentMoniker": "shopbanhoa\\Thankyou.aspx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\Thankyou.aspx",
+              "RelativeToolTip": "shopbanhoa\\Thankyou.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-31T15:47:11.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TrangLoaiHoa.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\TrangLoaiHoa.aspx",
+              "RelativeDocumentMoniker": "shopbanhoa\\TrangLoaiHoa.aspx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\TrangLoaiHoa.aspx",
+              "RelativeToolTip": "shopbanhoa\\TrangLoaiHoa.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-31T15:45:51.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PAGEHQMH.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHQMH.aspx",
+              "RelativeDocumentMoniker": "shopbanhoa\\PAGEHQMH.aspx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHQMH.aspx",
+              "RelativeToolTip": "shopbanhoa\\PAGEHQMH.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-29T15:46:26.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PAGEHCNK.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHCNK.aspx",
+              "RelativeDocumentMoniker": "shopbanhoa\\PAGEHCNK.aspx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\M\u00E1y t\u00EDnh\\Back up\\shopbanhoa\\shopbanhoa\\PAGEHCNK.aspx",
+              "RelativeToolTip": "shopbanhoa\\PAGEHCNK.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-29T15:29:28.767Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

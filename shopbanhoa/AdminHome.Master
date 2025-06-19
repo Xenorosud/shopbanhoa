@@ -1,0 +1,156 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminHome.master.cs" Inherits="shopbanhoa.AdminHome" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admin - shop hoa quả</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <script src="Admin/js/JavaScript1.js"></script>
+       <link href="css/StyleSheet1.css" rel="stylesheet" />
+        <link href="Admin/css/StyleSheet2.css" rel="stylesheet" />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="bg_admin-home">
+               <div class="bg-admin_part">
+
+                     <div class="part_Admin">
+
+                              <div class="titles-bg_admin">
+                                    <a href="TrangChuAdmin.aspx" class="titles-bg_admins"><i class="fa-solid fa-user-tie"></i> Fruits De Haute Qualite - Admin</a>
+                              </div>
+                            
+                         <div class="bg_danhmuc-admin">
+
+                               <a href="TrangChuAdmin.aspx" class="bg_dms-admin">
+                                 <i class="fa-solid fa-house"></i>    <span style="color:#8BC34A;">Trang chủ</span>
+                              </a>
+
+                                 <a href="ThemSPHoaQua.aspx" class="bg_dms-admin">
+                                  <i class="fa-solid fa-cart-plus"></i>    <span style="color:#8BC34A;">Thêm sản phẩm</span>
+                              </a>
+                             
+
+                               <a href="ThemLoaiHoaQua.aspx" class="bg_dms-admin">
+                                  <i class="fa-solid fa-marker"></i>   <span style="color:#8BC34A;"> Thêm loại hoa quả</span>
+                             </a>
+
+                              
+
+                              <a href="ThemTinTuc.aspx" class="bg_dms-admin">
+                                  <i class="fa-solid fa-pen-to-square"></i>   <span style="color:#8BC34A;">Thêm tin tức</span>
+                              </a>
+
+                             <a href="XemSlider.aspx" class="bg_dms-admin">
+                                 <i class="fa-solid fa-image"></i>  <span style="color:#8BC34A;">Thêm Ảnh Slider</span>
+                              </a>
+
+
+                              <a href="XemTaiKhoan.aspx" class="bg_dms-admin">
+                                 <i class="fa-solid fa-circle-user"></i>    <span style="color:#8BC34A;"> Quản lí tài khoản</span>
+                              </a>
+
+                              <a href="XemDonHang.aspx" class="bg_dms-admin">
+                                  <i class="fa-solid fa-tags"></i>   <span style="color:#8BC34A;"> Quản lí đơn hàng</span>
+                              </a>
+                           
+                              <a href="XemDanhGia.aspx" class="bg_dms-admin">
+                                  <i class="fa-solid fa-comments"></i>   <span style="color:#8BC34A;"> Xem đánh giá</span>
+                              </a>
+
+                               <asp:Button ID="btnQuayVeTrangChu" runat="server" Text="Quay về Trang Chủ" OnClick="btnQuayVeTrangChu_Click" CssClass="btn_agains"/>
+                         </div>
+                            
+                     </div>
+
+               </div>
+
+             <div class="bg-admin_part">
+                      
+                   <div class="alls_Admin-big">
+
+ <div class="titles-bg_admin" style="background-color:#27272A;">
+                     <p class="title-sm-admin" style="color:#8BC34A ;font-weight:600;">ADMIN - TRANG QUẢN LÝ CỬA HÀNG</p>
+                 </div>
+                
+           
+    <div class="bg-admin-sm">
+          
+        <div class="bg_titles-admin">
+              <p class="titles-admin_sm">Quản lý - Admin</p>
+        </div>  
+            
+
+        <div class="bg_form">
+             <input type="search" class="input_search-admin"   placeholder="Tìm kiếm...."/>
+        </div>
+       
+
+        <div class="bg_search-admin">
+            
+
+           <%
+            if (Session["Email"] != null && Session["IDQuyen"] != null)
+            {
+                string loggedInUserEmail = Session["Email"].ToString();
+                int loggedInUserRoleID = (int)Session["IDQuyen"];
+                string loggedInUserRole = loggedInUserRoleID == 2 ? "Admin" : "User";
+
+                if (loggedInUserRole == "Admin")
+                {
+                    %>
+                   
+                    <p>Xin Chào, <%= loggedInUserEmail %></p>
+                   
+                  
+                    <%
+                }
+                else
+                {
+                    %>
+                   
+                    <p>Xin Chào, <%= loggedInUserEmail %></p>
+                  
+                   
+             
+                    <%
+                }
+            }
+            else
+            {
+                %>
+                <a href="DangNhap.aspx" class="link-icons">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+                <%
+            }
+            %>
+
+
+
+
+           
+
+    
+
+ <!--==============================-->
+
+            
+        </div>
+    </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+                  <div class="ends">
+        <p class="title_ends-report">Website bán hoa quả - nhóm 12  </p>
+        <div style="width:70%;border-bottom:1px solid grey;margin-bottom:.37rem;"></div>
+    </div>
+                  </div>
+    </form>
+   
+</body>
+</html>

@@ -1,0 +1,163 @@
+﻿.body_alls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 2rem;
+   border-radius:20px;
+}
+
+.body_login-alls {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.body_login-alls .body_part {
+    width: 100%;
+    background-color: #EEEEEE;
+}
+
+.body_login-alls .body_part img {
+    width: 100%;
+    height: auto;
+}
+
+.body_login-alls .body_part .body_info-logins {
+    padding: .50rem 1rem;
+}
+
+.body_login-alls .body_part .body_info-logins i {
+    color: green;
+}
+
+.body_login-alls .body_part .body_info-logins .titles-login {
+    color: green;
+}
+
+ .titles_sm-logins {
+    margin-top: .87rem;
+    font-size: .87rem;
+    color: #333;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.body_parts {
+    padding: 2rem 2rem;
+    width: 100%;
+}
+
+.form_titles-logins {
+    display: flex;
+    gap: 3.1rem;
+    padding: 0.87rem 0;
+    border-bottom: 1px solid #333;
+}
+
+.form_titles-logins a {
+    color: #333;
+}
+
+.form_body-sm {
+    margin-top: 1rem;
+}
+
+.form_body-sm .input-text-sm {
+    width: 100%;
+    height: 42px;
+    border: 1px solid #dddddd;
+    padding-inline: 1rem;
+    border-radius: 5px;
+}
+
+.form_body-fg {
+    margin-top: .87rem;
+    text-align: right;
+}
+
+.form_body-fg .link_forgot {
+    color: red;
+    font-size: .80rem;
+    text-align: right;
+    font-weight: 520;
+}
+
+.form_body-btns {
+    padding: 0.80rem;
+    margin-top: 1rem;
+    width: 100%;
+    background-color: #fcba03;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.form_body-btns a {
+    color: #fff;
+    font-weight: 550;
+}
+
+.alls-or {
+    margin-top: .67rem;
+    text-align: center;
+}
+
+.alls-or .form_or {
+    font-size: .84rem;
+}
+
+.form_login-google,
+.form_login-fb {
+    margin-top: .93rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0.80rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form_login-google i,
+.form_login-fb i {
+    color: #fff;
+}
+
+
+
+.form_login-google a,
+.form_login-fb a {
+    color: #fff;
+    font-size: .84rem;
+   
+}
+
+.form_ends-titles {
+    margin-top: 1rem;
+}
+
+.form_ends-titles .ends-titles {
+    font-size: .76rem;
+}
+
+.form_login-google {
+    background-color: #D32730;
+}
+
+.form_login-fb {
+    background-color: #127BE1;
+}
+
+
+@media screen and (max-width: 759px) {
+    .body_login-alls {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .body_login-alls {
+        grid-template-columns: 6fr 6fr;
+    }
+}
